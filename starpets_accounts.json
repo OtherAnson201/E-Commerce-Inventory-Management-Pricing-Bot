@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Main",
+    "token": "Bearer token_goes_here",
+    "refresh_token": "refresh_token_goes_here"
+  }
+]
