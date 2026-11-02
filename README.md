@@ -9,7 +9,7 @@ Keeps pet listings stocked and priced across several accounts on the [StarPets](
   - A floor under 60% of that median is treated as manipulation and ignored.
   - Any other drop bigger than $0.10 or 3%, whichever is larger, is only followed after holding for 3 checks.
 - **Inventory:** lists target items automatically, up to 5 pet names per account and 50 listings per variant, with neon and mega neon going first.
-- **Multiple accounts:** runs one worker per StarPets login, covering every Roblox account linked to it.
+- **Multiple accounts:** runs one worker per StarPets login, covering every account linked to it.
 - **Account recovery:** relinks dead cookies and re-syncs stale or frozen accounts on its own.
 - **Rate limits:** stays under 25 API calls a minute and backs every account off when the server returns HTTP 429.
 - **Token refresh:** renews each login's access token every 5 minutes.
@@ -77,5 +77,3 @@ pip install requests
 | `starpets_relist.py` | The main bot |
 | `starpets_pricer.py` | Reprice-only mode, started automatically in its own window |
 | `starpets_accounts.json` | Login tokens (placeholders here) |
-
-This project isn't affiliated with StarPets. Check the marketplace's terms before automating an account.
