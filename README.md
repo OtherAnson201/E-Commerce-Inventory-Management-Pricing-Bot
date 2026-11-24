@@ -2,6 +2,12 @@
 
 Keeps pet listings stocked and priced across several accounts on the [StarPets](https://starpets.gg) marketplace. It lists items from inventory, follows the market floor price, and refuses to chase a price crash.
 
+## Demo
+
+A demo run with two logins covering five linked accounts: repricing to the floor, listing from inventory, holding prices through sudden drops, and sales coming in.
+
+![Console log of the bot repricing, listing and selling across several accounts](assets/demo.png)
+
 ## Features
 
 - **Repricing:** checks listings about every 10 seconds and moves them to the current floor price, never below $0.25.
